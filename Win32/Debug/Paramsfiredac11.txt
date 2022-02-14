@@ -1,0 +1,10 @@
+[InterfaceFire11.txt]
+Database=
+User_Name=SYSDBA
+Password=masterkey
+CharacterSet=WIN1252
+Port=3050
+Protocol=TCPIP
+Server=127.0.0.1
+PageSize=4096
+DriverID=FB
