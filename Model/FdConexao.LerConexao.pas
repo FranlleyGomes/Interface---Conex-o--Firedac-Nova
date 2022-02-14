@@ -55,7 +55,7 @@ uses
 
 constructor TLerConexao.create;
 begin
- // Memo := TMemo.Create(Application);
+
 end;
 
 destructor TLerConexao.Destroy;

@@ -90,10 +90,12 @@ type
     ImageList1: TImageList;
     IdAntiFreeze1: TIdAntiFreeze;
     IdFTP: TIdFTP;
+    BitBtn1: TBitBtn;
     procedure FormShow(Sender: TObject);
     procedure FormKeyPress(Sender: TObject; var Key: Char);
     procedure SpeedButton1Click(Sender: TObject);
     procedure FormCreate(Sender: TObject);
+    procedure SpeedButton3Click(Sender: TObject);
   private
     { Private declarations }
     FConexao : iConexao;
@@ -194,6 +196,11 @@ Formsenha.showmodal;
 
   Screen.Cursor := crDefault;
 
+end;
+
+procedure TfrmPrincipal.SpeedButton3Click(Sender: TObject);
+begin
+  Close;
 end;
 
 end.

@@ -487,6 +487,7 @@ object frmPrincipal: TfrmPrincipal
       0000}
     NumGlyphs = 2
     ParentFont = False
+    OnClick = SpeedButton3Click
   end
   object Bevel1: TBevel
     Left = 2
@@ -1350,6 +1351,14 @@ object frmPrincipal: TfrmPrincipal
     ParentFont = False
     TabOrder = 35
     Text = '3050'
+  end
+  object BitBtn1: TBitBtn
+    Left = 271
+    Top = 28
+    Width = 30
+    Height = 25
+    Caption = 'BitBtn1'
+    TabOrder = 36
   end
   object ImageList1: TImageList
     Left = 770
