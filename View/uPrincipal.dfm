@@ -1,9 +1,9 @@
 object frmPrincipal: TfrmPrincipal
   Left = 0
   Top = 0
-  Caption = 'Configurador de acesso ao banco de dados'
+  Caption = 'Configurador de Acesso ao Banco de Dados'
   ClientHeight = 670
-  ClientWidth = 962
+  ClientWidth = 835
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -19,8 +19,8 @@ object frmPrincipal: TfrmPrincipal
   PixelsPerInch = 96
   TextHeight = 13
   object Label2: TLabel
-    Left = 20
-    Top = 8
+    Left = 19
+    Top = 4
     Width = 114
     Height = 16
     Caption = 'N'#186' do IP do servidor'
@@ -33,8 +33,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label3: TLabel
-    Left = 316
-    Top = 8
+    Left = 363
+    Top = 4
     Width = 259
     Height = 16
     Caption = 'Caminho da Base de Dados da Empresa [1].'
@@ -47,8 +47,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label4: TLabel
-    Left = 20
-    Top = 56
+    Left = 19
+    Top = 52
     Width = 114
     Height = 16
     Caption = 'N'#186' do IP do servidor'
@@ -61,8 +61,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label5: TLabel
-    Left = 20
-    Top = 103
+    Left = 19
+    Top = 99
     Width = 114
     Height = 16
     Caption = 'N'#186' do IP do servidor'
@@ -75,8 +75,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label6: TLabel
-    Left = 20
-    Top = 151
+    Left = 19
+    Top = 147
     Width = 114
     Height = 16
     Caption = 'N'#186' do IP do servidor'
@@ -89,8 +89,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label7: TLabel
-    Left = 20
-    Top = 198
+    Left = 19
+    Top = 194
     Width = 114
     Height = 16
     Caption = 'N'#186' do IP do servidor'
@@ -103,8 +103,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label8: TLabel
-    Left = 316
-    Top = 56
+    Left = 363
+    Top = 52
     Width = 259
     Height = 16
     Caption = 'Caminho da Base de Dados da Empresa [2].'
@@ -117,8 +117,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label9: TLabel
-    Left = 316
-    Top = 103
+    Left = 363
+    Top = 99
     Width = 259
     Height = 16
     Caption = 'Caminho da Base de Dados da Empresa [3].'
@@ -131,8 +131,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label10: TLabel
-    Left = 316
-    Top = 151
+    Left = 363
+    Top = 147
     Width = 259
     Height = 16
     Caption = 'Caminho da Base de Dados da Empresa [4].'
@@ -145,8 +145,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label11: TLabel
-    Left = 316
-    Top = 198
+    Left = 363
+    Top = 194
     Width = 259
     Height = 16
     Caption = 'Caminho da Base de Dados da Empresa [5].'
@@ -159,8 +159,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object SpeedButton1: TSpeedButton
-    Left = 172
-    Top = 606
+    Left = 260
+    Top = 605
     Width = 134
     Height = 50
     Caption = 'Confirmar'
@@ -324,8 +324,8 @@ object frmPrincipal: TfrmPrincipal
     OnClick = SpeedButton1Click
   end
   object SpeedButton3: TSpeedButton
-    Left = 327
-    Top = 607
+    Left = 415
+    Top = 606
     Width = 134
     Height = 50
     GroupIndex = 1
@@ -492,13 +492,13 @@ object frmPrincipal: TfrmPrincipal
   object Bevel1: TBevel
     Left = 2
     Top = 595
-    Width = 623
-    Height = 1
+    Width = 834
+    Height = 5
     Shape = bsTopLine
   end
   object Label1: TLabel
-    Left = 20
-    Top = 246
+    Left = 19
+    Top = 242
     Width = 114
     Height = 16
     Caption = 'N'#186' do IP do servidor'
@@ -511,8 +511,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label12: TLabel
-    Left = 316
-    Top = 246
+    Left = 363
+    Top = 242
     Width = 259
     Height = 16
     Caption = 'Caminho da Base de Dados da Empresa [6].'
@@ -525,8 +525,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label13: TLabel
-    Left = 20
-    Top = 294
+    Left = 19
+    Top = 290
     Width = 114
     Height = 16
     Caption = 'N'#186' do IP do servidor'
@@ -539,8 +539,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label14: TLabel
-    Left = 316
-    Top = 294
+    Left = 363
+    Top = 290
     Width = 259
     Height = 16
     Caption = 'Caminho da Base de Dados da Empresa [7].'
@@ -553,8 +553,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label15: TLabel
-    Left = 20
-    Top = 341
+    Left = 19
+    Top = 337
     Width = 114
     Height = 16
     Caption = 'N'#186' do IP do servidor'
@@ -567,8 +567,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label16: TLabel
-    Left = 316
-    Top = 341
+    Left = 363
+    Top = 337
     Width = 259
     Height = 16
     Caption = 'Caminho da Base de Dados da Empresa [8].'
@@ -581,8 +581,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label17: TLabel
-    Left = 20
-    Top = 389
+    Left = 19
+    Top = 385
     Width = 114
     Height = 16
     Caption = 'N'#186' do IP do servidor'
@@ -595,8 +595,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label18: TLabel
-    Left = 316
-    Top = 389
+    Left = 363
+    Top = 385
     Width = 259
     Height = 16
     Caption = 'Caminho da Base de Dados da Empresa [9].'
@@ -609,8 +609,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label19: TLabel
-    Left = 20
-    Top = 437
+    Left = 19
+    Top = 433
     Width = 114
     Height = 16
     Caption = 'N'#186' do IP do servidor'
@@ -623,8 +623,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label20: TLabel
-    Left = 316
-    Top = 437
+    Left = 363
+    Top = 433
     Width = 266
     Height = 16
     Caption = 'Caminho da Base de Dados da Empresa [10].'
@@ -637,8 +637,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label21: TLabel
-    Left = 316
-    Top = 485
+    Left = 363
+    Top = 481
     Width = 265
     Height = 16
     Caption = 'Caminho da Base de Dados da Empresa [11].'
@@ -651,8 +651,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label22: TLabel
-    Left = 20
-    Top = 485
+    Left = 19
+    Top = 481
     Width = 114
     Height = 16
     Caption = 'N'#186' do IP do servidor'
@@ -665,8 +665,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label23: TLabel
-    Left = 316
-    Top = 533
+    Left = 363
+    Top = 529
     Width = 266
     Height = 16
     Caption = 'Caminho da Base de Dados da Empresa [12].'
@@ -679,8 +679,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label24: TLabel
-    Left = 20
-    Top = 533
+    Left = 19
+    Top = 529
     Width = 114
     Height = 16
     Caption = 'N'#186' do IP do servidor'
@@ -693,8 +693,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label25: TLabel
-    Left = 156
-    Top = 8
+    Left = 203
+    Top = 4
     Width = 67
     Height = 16
     Caption = 'N'#186' da Porta'
@@ -707,8 +707,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label26: TLabel
-    Left = 156
-    Top = 55
+    Left = 203
+    Top = 51
     Width = 67
     Height = 16
     Caption = 'N'#186' da Porta'
@@ -721,8 +721,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label27: TLabel
-    Left = 156
-    Top = 103
+    Left = 203
+    Top = 99
     Width = 67
     Height = 16
     Caption = 'N'#186' da Porta'
@@ -735,8 +735,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label28: TLabel
-    Left = 156
-    Top = 150
+    Left = 203
+    Top = 146
     Width = 67
     Height = 16
     Caption = 'N'#186' da Porta'
@@ -749,8 +749,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label29: TLabel
-    Left = 156
-    Top = 198
+    Left = 203
+    Top = 194
     Width = 67
     Height = 16
     Caption = 'N'#186' da Porta'
@@ -763,8 +763,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label30: TLabel
-    Left = 156
-    Top = 245
+    Left = 203
+    Top = 241
     Width = 67
     Height = 16
     Caption = 'N'#186' da Porta'
@@ -777,8 +777,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label31: TLabel
-    Left = 156
-    Top = 294
+    Left = 203
+    Top = 290
     Width = 67
     Height = 16
     Caption = 'N'#186' da Porta'
@@ -791,8 +791,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label32: TLabel
-    Left = 156
-    Top = 341
+    Left = 203
+    Top = 337
     Width = 67
     Height = 16
     Caption = 'N'#186' da Porta'
@@ -805,8 +805,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label33: TLabel
-    Left = 156
-    Top = 390
+    Left = 203
+    Top = 386
     Width = 67
     Height = 16
     Caption = 'N'#186' da Porta'
@@ -819,8 +819,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label34: TLabel
-    Left = 156
-    Top = 437
+    Left = 203
+    Top = 433
     Width = 67
     Height = 16
     Caption = 'N'#186' da Porta'
@@ -833,8 +833,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label35: TLabel
-    Left = 156
-    Top = 486
+    Left = 203
+    Top = 482
     Width = 67
     Height = 16
     Caption = 'N'#186' da Porta'
@@ -847,8 +847,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label36: TLabel
-    Left = 156
-    Top = 533
+    Left = 203
+    Top = 529
     Width = 67
     Height = 16
     Caption = 'N'#186' da Porta'
@@ -861,152 +861,9 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Edit4: TEdit
-    Left = 316
-    Top = 169
+    Left = 363
+    Top = 165
     Width = 431
-    Height = 26
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clRed
-    Font.Height = -16
-    Font.Name = 'Arial'
-    Font.Style = []
-    ParentFont = False
-    TabOrder = 0
-  end
-  object Edit5: TEdit
-    Left = 316
-    Top = 216
-    Width = 431
-    Height = 26
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clRed
-    Font.Height = -16
-    Font.Name = 'Arial'
-    Font.Style = []
-    ParentFont = False
-    TabOrder = 1
-  end
-  object Edit6: TEdit
-    Left = 316
-    Top = 264
-    Width = 431
-    Height = 26
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clRed
-    Font.Height = -16
-    Font.Name = 'Arial'
-    Font.Style = []
-    ParentFont = False
-    TabOrder = 2
-  end
-  object Edit7: TEdit
-    Left = 316
-    Top = 312
-    Width = 431
-    Height = 26
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clRed
-    Font.Height = -16
-    Font.Name = 'Arial'
-    Font.Style = []
-    ParentFont = False
-    TabOrder = 3
-  end
-  object Edit3: TEdit
-    Left = 316
-    Top = 121
-    Width = 431
-    Height = 26
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clRed
-    Font.Height = -16
-    Font.Name = 'Arial'
-    Font.Style = []
-    ParentFont = False
-    TabOrder = 4
-  end
-  object Edit1: TEdit
-    Left = 316
-    Top = 26
-    Width = 431
-    Height = 26
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clRed
-    Font.Height = -16
-    Font.Name = 'Arial'
-    Font.Style = []
-    ParentFont = False
-    TabOrder = 5
-  end
-  object Edit2: TEdit
-    Left = 316
-    Top = 74
-    Width = 431
-    Height = 26
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clRed
-    Font.Height = -16
-    Font.Name = 'Arial'
-    Font.Style = []
-    ParentFont = False
-    TabOrder = 6
-  end
-  object Editip1: TEdit
-    Left = 20
-    Top = 26
-    Width = 130
-    Height = 26
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clRed
-    Font.Height = -16
-    Font.Name = 'Arial'
-    Font.Style = []
-    ParentFont = False
-    TabOrder = 7
-  end
-  object Editip2: TEdit
-    Left = 20
-    Top = 73
-    Width = 130
-    Height = 26
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clRed
-    Font.Height = -16
-    Font.Name = 'Arial'
-    Font.Style = []
-    ParentFont = False
-    TabOrder = 8
-  end
-  object Editip3: TEdit
-    Left = 20
-    Top = 121
-    Width = 130
-    Height = 26
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clRed
-    Font.Height = -16
-    Font.Name = 'Arial'
-    Font.Style = []
-    ParentFont = False
-    TabOrder = 9
-  end
-  object Editip4: TEdit
-    Left = 20
-    Top = 168
-    Width = 130
-    Height = 26
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clRed
-    Font.Height = -16
-    Font.Name = 'Arial'
-    Font.Style = []
-    ParentFont = False
-    TabOrder = 10
-  end
-  object Editip5: TEdit
-    Left = 20
-    Top = 216
-    Width = 130
     Height = 26
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clRed
@@ -1016,35 +873,9 @@ object frmPrincipal: TfrmPrincipal
     ParentFont = False
     TabOrder = 11
   end
-  object Editip6: TEdit
-    Left = 20
-    Top = 263
-    Width = 130
-    Height = 26
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clRed
-    Font.Height = -16
-    Font.Name = 'Arial'
-    Font.Style = []
-    ParentFont = False
-    TabOrder = 12
-  end
-  object Editip7: TEdit
-    Left = 20
-    Top = 311
-    Width = 130
-    Height = 26
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clRed
-    Font.Height = -16
-    Font.Name = 'Arial'
-    Font.Style = []
-    ParentFont = False
-    TabOrder = 13
-  end
-  object Edit8: TEdit
-    Left = 316
-    Top = 359
+  object Edit5: TEdit
+    Left = 363
+    Top = 212
     Width = 431
     Height = 26
     Font.Charset = DEFAULT_CHARSET
@@ -1055,35 +886,9 @@ object frmPrincipal: TfrmPrincipal
     ParentFont = False
     TabOrder = 14
   end
-  object Editip8: TEdit
-    Left = 20
-    Top = 359
-    Width = 130
-    Height = 26
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clRed
-    Font.Height = -16
-    Font.Name = 'Arial'
-    Font.Style = []
-    ParentFont = False
-    TabOrder = 15
-  end
-  object Editip9: TEdit
-    Left = 20
-    Top = 407
-    Width = 130
-    Height = 26
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clRed
-    Font.Height = -16
-    Font.Name = 'Arial'
-    Font.Style = []
-    ParentFont = False
-    TabOrder = 16
-  end
-  object Edit9: TEdit
-    Left = 316
-    Top = 407
+  object Edit6: TEdit
+    Left = 363
+    Top = 260
     Width = 431
     Height = 26
     Font.Charset = DEFAULT_CHARSET
@@ -1094,36 +899,10 @@ object frmPrincipal: TfrmPrincipal
     ParentFont = False
     TabOrder = 17
   end
-  object Editip10: TEdit
-    Left = 20
-    Top = 455
-    Width = 130
-    Height = 26
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clRed
-    Font.Height = -16
-    Font.Name = 'Arial'
-    Font.Style = []
-    ParentFont = False
-    TabOrder = 18
-  end
-  object Edit10: TEdit
-    Left = 316
-    Top = 455
+  object Edit7: TEdit
+    Left = 363
+    Top = 308
     Width = 431
-    Height = 26
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clRed
-    Font.Height = -16
-    Font.Name = 'Arial'
-    Font.Style = []
-    ParentFont = False
-    TabOrder = 19
-  end
-  object Editip11: TEdit
-    Left = 20
-    Top = 503
-    Width = 130
     Height = 26
     Font.Charset = DEFAULT_CHARSET
     Font.Color = clRed
@@ -1133,9 +912,9 @@ object frmPrincipal: TfrmPrincipal
     ParentFont = False
     TabOrder = 20
   end
-  object Edit11: TEdit
-    Left = 316
-    Top = 503
+  object Edit3: TEdit
+    Left = 363
+    Top = 117
     Width = 431
     Height = 26
     Font.Charset = DEFAULT_CHARSET
@@ -1144,11 +923,37 @@ object frmPrincipal: TfrmPrincipal
     Font.Name = 'Arial'
     Font.Style = []
     ParentFont = False
-    TabOrder = 21
+    TabOrder = 8
   end
-  object Editip12: TEdit
-    Left = 20
-    Top = 551
+  object Edit1: TEdit
+    Left = 363
+    Top = 22
+    Width = 431
+    Height = 26
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 2
+  end
+  object Edit2: TEdit
+    Left = 363
+    Top = 70
+    Width = 431
+    Height = 26
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 5
+  end
+  object Editip1: TEdit
+    Left = 19
+    Top = 22
     Width = 130
     Height = 26
     Font.Charset = DEFAULT_CHARSET
@@ -1157,11 +962,96 @@ object frmPrincipal: TfrmPrincipal
     Font.Name = 'Arial'
     Font.Style = []
     ParentFont = False
-    TabOrder = 22
+    TabOrder = 0
+    Text = '127.0.0.1'
   end
-  object Edit12: TEdit
-    Left = 316
-    Top = 551
+  object Editip2: TEdit
+    Left = 19
+    Top = 69
+    Width = 130
+    Height = 26
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 3
+    Text = '127.0.0.1'
+  end
+  object Editip3: TEdit
+    Left = 19
+    Top = 117
+    Width = 130
+    Height = 26
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 6
+    Text = '127.0.0.1'
+  end
+  object Editip4: TEdit
+    Left = 19
+    Top = 164
+    Width = 130
+    Height = 26
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 9
+    Text = '127.0.0.1'
+  end
+  object Editip5: TEdit
+    Left = 19
+    Top = 212
+    Width = 130
+    Height = 26
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 12
+    Text = '127.0.0.1'
+  end
+  object Editip6: TEdit
+    Left = 19
+    Top = 259
+    Width = 130
+    Height = 26
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 15
+    Text = '127.0.0.1'
+  end
+  object Editip7: TEdit
+    Left = 19
+    Top = 307
+    Width = 130
+    Height = 26
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 18
+    Text = '127.0.0.1'
+  end
+  object Edit8: TEdit
+    Left = 363
+    Top = 355
     Width = 431
     Height = 26
     Font.Charset = DEFAULT_CHARSET
@@ -1172,9 +1062,131 @@ object frmPrincipal: TfrmPrincipal
     ParentFont = False
     TabOrder = 23
   end
+  object Editip8: TEdit
+    Left = 19
+    Top = 355
+    Width = 130
+    Height = 26
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 21
+    Text = '127.0.0.1'
+  end
+  object Editip9: TEdit
+    Left = 19
+    Top = 403
+    Width = 130
+    Height = 26
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 24
+    Text = '127.0.0.1'
+  end
+  object Edit9: TEdit
+    Left = 363
+    Top = 403
+    Width = 431
+    Height = 26
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 26
+  end
+  object Editip10: TEdit
+    Left = 19
+    Top = 451
+    Width = 130
+    Height = 26
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 27
+    Text = '127.0.0.1'
+  end
+  object Edit10: TEdit
+    Left = 363
+    Top = 451
+    Width = 431
+    Height = 26
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 29
+  end
+  object Editip11: TEdit
+    Left = 19
+    Top = 497
+    Width = 130
+    Height = 26
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 30
+    Text = '127.0.0.1'
+  end
+  object Edit11: TEdit
+    Left = 363
+    Top = 499
+    Width = 431
+    Height = 26
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 32
+  end
+  object Editip12: TEdit
+    Left = 19
+    Top = 547
+    Width = 130
+    Height = 26
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 33
+    Text = '127.0.0.1'
+  end
+  object Edit12: TEdit
+    Left = 363
+    Top = 547
+    Width = 431
+    Height = 26
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 35
+  end
   object EdtNrPorta1: TEdit
-    Left = 156
-    Top = 26
+    Left = 203
+    Top = 22
     Width = 109
     Height = 26
     Alignment = taRightJustify
@@ -1184,12 +1196,117 @@ object frmPrincipal: TfrmPrincipal
     Font.Name = 'Arial'
     Font.Style = []
     ParentFont = False
-    TabOrder = 24
+    TabOrder = 1
     Text = '3050'
   end
   object EdtNrPorta2: TEdit
-    Left = 156
-    Top = 73
+    Left = 203
+    Top = 69
+    Width = 109
+    Height = 26
+    Alignment = taRightJustify
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 4
+    Text = '3050'
+  end
+  object EdtNrPorta3: TEdit
+    Left = 203
+    Top = 117
+    Width = 109
+    Height = 26
+    Alignment = taRightJustify
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 7
+    Text = '3050'
+  end
+  object EdtNrPorta4: TEdit
+    Left = 203
+    Top = 164
+    Width = 109
+    Height = 26
+    Alignment = taRightJustify
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 10
+    Text = '3050'
+  end
+  object EdtNrPorta5: TEdit
+    Left = 203
+    Top = 212
+    Width = 109
+    Height = 26
+    Alignment = taRightJustify
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 13
+    Text = '3050'
+  end
+  object EdtNrPorta6: TEdit
+    Left = 203
+    Top = 259
+    Width = 109
+    Height = 26
+    Alignment = taRightJustify
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 16
+    Text = '3050'
+  end
+  object EdtNrPorta7: TEdit
+    Left = 203
+    Top = 308
+    Width = 109
+    Height = 26
+    Alignment = taRightJustify
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 19
+    Text = '3050'
+  end
+  object EdtNrPorta8: TEdit
+    Left = 203
+    Top = 355
+    Width = 109
+    Height = 26
+    Alignment = taRightJustify
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clRed
+    Font.Height = -16
+    Font.Name = 'Arial'
+    Font.Style = []
+    ParentFont = False
+    TabOrder = 22
+    Text = '3050'
+  end
+  object EdtNrPorta9: TEdit
+    Left = 203
+    Top = 404
     Width = 109
     Height = 26
     Alignment = taRightJustify
@@ -1202,39 +1319,9 @@ object frmPrincipal: TfrmPrincipal
     TabOrder = 25
     Text = '3050'
   end
-  object EdtNrPorta3: TEdit
-    Left = 156
-    Top = 121
-    Width = 109
-    Height = 26
-    Alignment = taRightJustify
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clRed
-    Font.Height = -16
-    Font.Name = 'Arial'
-    Font.Style = []
-    ParentFont = False
-    TabOrder = 26
-    Text = '3050'
-  end
-  object EdtNrPorta4: TEdit
-    Left = 156
-    Top = 168
-    Width = 109
-    Height = 26
-    Alignment = taRightJustify
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clRed
-    Font.Height = -16
-    Font.Name = 'Arial'
-    Font.Style = []
-    ParentFont = False
-    TabOrder = 27
-    Text = '3050'
-  end
-  object EdtNrPorta5: TEdit
-    Left = 156
-    Top = 216
+  object EdtNrPorta10: TEdit
+    Left = 203
+    Top = 451
     Width = 109
     Height = 26
     Alignment = taRightJustify
@@ -1247,39 +1334,9 @@ object frmPrincipal: TfrmPrincipal
     TabOrder = 28
     Text = '3050'
   end
-  object EdtNrPorta6: TEdit
-    Left = 156
-    Top = 263
-    Width = 109
-    Height = 26
-    Alignment = taRightJustify
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clRed
-    Font.Height = -16
-    Font.Name = 'Arial'
-    Font.Style = []
-    ParentFont = False
-    TabOrder = 29
-    Text = '3050'
-  end
-  object EdtNrPorta7: TEdit
-    Left = 156
-    Top = 312
-    Width = 109
-    Height = 26
-    Alignment = taRightJustify
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clRed
-    Font.Height = -16
-    Font.Name = 'Arial'
-    Font.Style = []
-    ParentFont = False
-    TabOrder = 30
-    Text = '3050'
-  end
-  object EdtNrPorta8: TEdit
-    Left = 156
-    Top = 359
+  object EdtNrPorta11: TEdit
+    Left = 203
+    Top = 500
     Width = 109
     Height = 26
     Alignment = taRightJustify
@@ -1292,39 +1349,9 @@ object frmPrincipal: TfrmPrincipal
     TabOrder = 31
     Text = '3050'
   end
-  object EdtNrPorta9: TEdit
-    Left = 156
-    Top = 408
-    Width = 109
-    Height = 26
-    Alignment = taRightJustify
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clRed
-    Font.Height = -16
-    Font.Name = 'Arial'
-    Font.Style = []
-    ParentFont = False
-    TabOrder = 32
-    Text = '3050'
-  end
-  object EdtNrPorta10: TEdit
-    Left = 156
-    Top = 455
-    Width = 109
-    Height = 26
-    Alignment = taRightJustify
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clRed
-    Font.Height = -16
-    Font.Name = 'Arial'
-    Font.Style = []
-    ParentFont = False
-    TabOrder = 33
-    Text = '3050'
-  end
-  object EdtNrPorta11: TEdit
-    Left = 156
-    Top = 504
+  object EdtNrPorta12: TEdit
+    Left = 203
+    Top = 547
     Width = 109
     Height = 26
     Alignment = taRightJustify
@@ -1337,34 +1364,133 @@ object frmPrincipal: TfrmPrincipal
     TabOrder = 34
     Text = '3050'
   end
-  object EdtNrPorta12: TEdit
-    Left = 156
-    Top = 551
-    Width = 109
-    Height = 26
-    Alignment = taRightJustify
-    Font.Charset = DEFAULT_CHARSET
-    Font.Color = clRed
-    Font.Height = -16
-    Font.Name = 'Arial'
-    Font.Style = []
-    ParentFont = False
-    TabOrder = 35
-    Text = '3050'
-  end
   object BitBtn1: TBitBtn
-    Left = 271
-    Top = 28
-    Width = 30
-    Height = 25
-    Caption = 'BitBtn1'
+    Left = 152
+    Top = 22
+    Width = 20
+    Height = 26
+    Cursor = crHandPoint
+    Hint = 'Repete o Texto para os edits abaixo'
+    ParentCustomHint = False
+    BiDiMode = bdLeftToRight
+    Font.Charset = DEFAULT_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -11
+    Font.Name = 'Tahoma'
+    Font.Style = []
+    Glyph.Data = {
+      2E030000424D2E0300000000000036000000280000000D000000130000000100
+      180000000000F802000000000000000000000000000000000000F1F1F1F1F1F1
+      F1F1F1F2F2F2F2F2F2F6F6F6AFAFAFF7F7F7F3F3F3F2F2F2F1F1F1F2F2F2F2F2
+      F200EDEDEDEEEEEEECECECEFEFEFF9F9F9D0D0D0000000E4E4E4F5F5F5EDEDED
+      ECECECEDEDEDEEEEEE00EDEDEDEEEEEEEEEEEEEDEDEDFFFFFF23232300000036
+      3636FFFFFFEFEFEFF0F0F0EBEBEBEFEFEF00EEEEEEEFEFEFEBEBEBFEFEFEB5B5
+      B5000000000000000000C2C2C2F9F9F9ECECECF1F1F1EDEDED00EDEDEDEEEEEE
+      F1F1F1FFFFFF1C1C1C0000000000000000002B2B2BFFFFFFF2F2F2EBEBEBF1F1
+      F100EDEDEDEDEDEDFFFFFFA4A4A4000000000000000000000000000000BCBCBC
+      FDFDFDEEEEEEEEEEEE00EFEFEFF1F1F1F5F5F519191900000000000000000000
+      0000000000232323FFFFFFEEEEEEF0F0F000EDEDEDFFFFFF8B8B8B0000000000
+      00000000000000000000000000000000A1A1A1FDFDFDEEEEEE00F1F1F1FFFFFF
+      000000000000000000000000000000000000000000000000010101FFFFFFEFEF
+      EF00FFFFFF777777000000000000000000000000000000000000000000000000
+      000000858585FFFFFF00E4E4E40A0A0A00000000000000000000000000000000
+      0000000000000000000000141414F2F2F2006565650000000000000000000000
+      000000000000000000000000000000000000000000007A7A7A00CFCFCFD3D3D3
+      D2D2D2E4E4E46767670000000000000000007A7A7AE0E0E0D1D1D1D4D4D4D4D4
+      D400F4F4F4F6F6F6F4F4F4FFFFFF7979790000000000000000008D8D8DFFFFFF
+      F5F5F5F4F4F4F4F4F400EDEDEDEEEEEEEDEDEDFDFDFD75757500000000000000
+      0000888888FCFCFCEFEFEFEDEDEDEDEDED00EDEDEDEEEEEEEDEDEDFFFFFF7373
+      73000000000000000000898989FEFEFEEDEDEDEEEEEEEFEFEF00EEEEEEEEEEEE
+      F2F2F2FCFCFC757575000000000000000000888888FEFEFEF3F3F3EAEAEAF2F2
+      F200ECECECEEEEEEEAEAEAFFFFFF7373730000000000000000008A8A8AFCFCFC
+      EAEAEAEEEEEEECECEC00EEEEEEEDEDEDEFEFEFFCFCFC75757500000000000000
+      0000898989FEFEFEF0F0F0EBEBEBF0F0F000}
+    ParentBiDiMode = False
+    ParentFont = False
+    ParentShowHint = False
+    ShowHint = False
     TabOrder = 36
+    OnClick = BitBtn1Click
+  end
+  object BitBtn2: TBitBtn
+    Left = 314
+    Top = 20
+    Width = 20
+    Height = 26
+    Cursor = crHandPoint
+    Hint = 'Repete o Texto para os edits abaixo'
+    Glyph.Data = {
+      2E030000424D2E0300000000000036000000280000000D000000130000000100
+      180000000000F802000000000000000000000000000000000000F1F1F1F1F1F1
+      F1F1F1F2F2F2F2F2F2F6F6F6AFAFAFF7F7F7F3F3F3F2F2F2F1F1F1F2F2F2F2F2
+      F200EDEDEDEEEEEEECECECEFEFEFF9F9F9D0D0D0000000E4E4E4F5F5F5EDEDED
+      ECECECEDEDEDEEEEEE00EDEDEDEEEEEEEEEEEEEDEDEDFFFFFF23232300000036
+      3636FFFFFFEFEFEFF0F0F0EBEBEBEFEFEF00EEEEEEEFEFEFEBEBEBFEFEFEB5B5
+      B5000000000000000000C2C2C2F9F9F9ECECECF1F1F1EDEDED00EDEDEDEEEEEE
+      F1F1F1FFFFFF1C1C1C0000000000000000002B2B2BFFFFFFF2F2F2EBEBEBF1F1
+      F100EDEDEDEDEDEDFFFFFFA4A4A4000000000000000000000000000000BCBCBC
+      FDFDFDEEEEEEEEEEEE00EFEFEFF1F1F1F5F5F519191900000000000000000000
+      0000000000232323FFFFFFEEEEEEF0F0F000EDEDEDFFFFFF8B8B8B0000000000
+      00000000000000000000000000000000A1A1A1FDFDFDEEEEEE00F1F1F1FFFFFF
+      000000000000000000000000000000000000000000000000010101FFFFFFEFEF
+      EF00FFFFFF777777000000000000000000000000000000000000000000000000
+      000000858585FFFFFF00E4E4E40A0A0A00000000000000000000000000000000
+      0000000000000000000000141414F2F2F2006565650000000000000000000000
+      000000000000000000000000000000000000000000007A7A7A00CFCFCFD3D3D3
+      D2D2D2E4E4E46767670000000000000000007A7A7AE0E0E0D1D1D1D4D4D4D4D4
+      D400F4F4F4F6F6F6F4F4F4FFFFFF7979790000000000000000008D8D8DFFFFFF
+      F5F5F5F4F4F4F4F4F400EDEDEDEEEEEEEDEDEDFDFDFD75757500000000000000
+      0000888888FCFCFCEFEFEFEDEDEDEDEDED00EDEDEDEEEEEEEDEDEDFFFFFF7373
+      73000000000000000000898989FEFEFEEDEDEDEEEEEEEFEFEF00EEEEEEEEEEEE
+      F2F2F2FCFCFC757575000000000000000000888888FEFEFEF3F3F3EAEAEAF2F2
+      F200ECECECEEEEEEEAEAEAFFFFFF7373730000000000000000008A8A8AFCFCFC
+      EAEAEAEEEEEEECECEC00EEEEEEEDEDEDEFEFEFFCFCFC75757500000000000000
+      0000898989FEFEFEF0F0F0EBEBEBF0F0F000}
+    TabOrder = 37
+    OnClick = BitBtn2Click
+  end
+  object BitBtn3: TBitBtn
+    Left = 796
+    Top = 20
+    Width = 20
+    Height = 26
+    Cursor = crHandPoint
+    Hint = 'Repete o Texto para os edits abaixo'
+    Glyph.Data = {
+      2E030000424D2E0300000000000036000000280000000D000000130000000100
+      180000000000F802000000000000000000000000000000000000F1F1F1F1F1F1
+      F1F1F1F2F2F2F2F2F2F6F6F6AFAFAFF7F7F7F3F3F3F2F2F2F1F1F1F2F2F2F2F2
+      F200EDEDEDEEEEEEECECECEFEFEFF9F9F9D0D0D0000000E4E4E4F5F5F5EDEDED
+      ECECECEDEDEDEEEEEE00EDEDEDEEEEEEEEEEEEEDEDEDFFFFFF23232300000036
+      3636FFFFFFEFEFEFF0F0F0EBEBEBEFEFEF00EEEEEEEFEFEFEBEBEBFEFEFEB5B5
+      B5000000000000000000C2C2C2F9F9F9ECECECF1F1F1EDEDED00EDEDEDEEEEEE
+      F1F1F1FFFFFF1C1C1C0000000000000000002B2B2BFFFFFFF2F2F2EBEBEBF1F1
+      F100EDEDEDEDEDEDFFFFFFA4A4A4000000000000000000000000000000BCBCBC
+      FDFDFDEEEEEEEEEEEE00EFEFEFF1F1F1F5F5F519191900000000000000000000
+      0000000000232323FFFFFFEEEEEEF0F0F000EDEDEDFFFFFF8B8B8B0000000000
+      00000000000000000000000000000000A1A1A1FDFDFDEEEEEE00F1F1F1FFFFFF
+      000000000000000000000000000000000000000000000000010101FFFFFFEFEF
+      EF00FFFFFF777777000000000000000000000000000000000000000000000000
+      000000858585FFFFFF00E4E4E40A0A0A00000000000000000000000000000000
+      0000000000000000000000141414F2F2F2006565650000000000000000000000
+      000000000000000000000000000000000000000000007A7A7A00CFCFCFD3D3D3
+      D2D2D2E4E4E46767670000000000000000007A7A7AE0E0E0D1D1D1D4D4D4D4D4
+      D400F4F4F4F6F6F6F4F4F4FFFFFF7979790000000000000000008D8D8DFFFFFF
+      F5F5F5F4F4F4F4F4F400EDEDEDEEEEEEEDEDEDFDFDFD75757500000000000000
+      0000888888FCFCFCEFEFEFEDEDEDEDEDED00EDEDEDEEEEEEEDEDEDFFFFFF7373
+      73000000000000000000898989FEFEFEEDEDEDEEEEEEEFEFEF00EEEEEEEEEEEE
+      F2F2F2FCFCFC757575000000000000000000888888FEFEFEF3F3F3EAEAEAF2F2
+      F200ECECECEEEEEEEAEAEAFFFFFF7373730000000000000000008A8A8AFCFCFC
+      EAEAEAEEEEEEECECEC00EEEEEEEDEDEDEFEFEFFCFCFC75757500000000000000
+      0000898989FEFEFEF0F0F0EBEBEBF0F0F000}
+    TabOrder = 38
+    OnClick = BitBtn3Click
   end
   object ImageList1: TImageList
-    Left = 770
-    Top = 73
+    Left = 713
+    Top = 69
     Bitmap = {
-      494C010101000500480010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      494C0101010005004C0010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000400000001000000001002000000000000010
       0000000000000000000000000000000000000000000000000000000000000000
       00000000000000000000000000000000000000000000FFFFFF00FFFFFF00FFFF
@@ -1504,8 +1630,8 @@ object frmPrincipal: TfrmPrincipal
       000000000000}
   end
   object IdAntiFreeze1: TIdAntiFreeze
-    Left = 771
-    Top = 114
+    Left = 714
+    Top = 110
   end
   object IdFTP: TIdFTP
     IPVersion = Id_IPv4
@@ -1517,7 +1643,7 @@ object frmPrincipal: TfrmPrincipal
     ProxySettings.ProxyType = fpcmNone
     ProxySettings.Port = 0
     ReadTimeout = 0
-    Left = 768
-    Top = 162
+    Left = 711
+    Top = 158
   end
 end

@@ -91,11 +91,16 @@ type
     IdAntiFreeze1: TIdAntiFreeze;
     IdFTP: TIdFTP;
     BitBtn1: TBitBtn;
+    BitBtn2: TBitBtn;
+    BitBtn3: TBitBtn;
     procedure FormShow(Sender: TObject);
     procedure FormKeyPress(Sender: TObject; var Key: Char);
     procedure SpeedButton1Click(Sender: TObject);
     procedure FormCreate(Sender: TObject);
     procedure SpeedButton3Click(Sender: TObject);
+    procedure BitBtn1Click(Sender: TObject);
+    procedure BitBtn2Click(Sender: TObject);
+    procedure BitBtn3Click(Sender: TObject);
   private
     { Private declarations }
     FConexao : iConexao;
@@ -115,6 +120,35 @@ implementation
 {$R *.dfm}
 
 uses uSenha, FdConexao.Cotroller, FdConexao.Controller.Interfaces;
+
+procedure TfrmPrincipal.BitBtn1Click(Sender: TObject);
+var
+ i : Integer;
+ Const  NamePrefix = 'Editip';
+begin
+    for i := 2 to 12 do
+      TEdit(FindComponent(NamePrefix + IntToStr(i))).Text := Editip1.Text;
+end;
+
+procedure TfrmPrincipal.BitBtn2Click(Sender: TObject);
+var
+ i : Integer;
+ Const  NamePrefix = 'EdtNrPorta';
+begin
+    for i := 2 to 12 do
+      TEdit(FindComponent(NamePrefix + IntToStr(i))).Text := EdtNrPorta1.Text;
+
+end;
+
+procedure TfrmPrincipal.BitBtn3Click(Sender: TObject);
+var
+ i : Integer;
+ Const  NamePrefix = 'Edit';
+begin
+    for i := 2 to 12 do
+      TEdit(FindComponent(NamePrefix + IntToStr(i))).Text := Edit1.Text;
+
+end;
 
 procedure TfrmPrincipal.FormCreate(Sender: TObject);
 begin

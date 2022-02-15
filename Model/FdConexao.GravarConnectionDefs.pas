@@ -53,8 +53,8 @@ end;
 
 destructor TConexaoDefs.Destroy;
 begin
-   FreeandNil(Memo);
-   FreeandNil(MemoFinal);
+
+
    inherited;
 end;
 
@@ -78,6 +78,8 @@ begin
       end;
 
       MemoFINAL.Lines.SaveToFile(ExtractFilePath(Application.ExeName)+'FDConnectionDefs.ini');
+      FreeandNil(MemoFinal);
+      FreeandNil(Memo);
 end;
 
 class function TConexaoDefs.New: iConexao;

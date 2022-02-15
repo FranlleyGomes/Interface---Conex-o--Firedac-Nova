@@ -10,7 +10,9 @@ uses
   FdConexao.GravarConnectionDefs in 'Model\FdConexao.GravarConnectionDefs.pas',
   FdConexaoFactory in 'Model\FdConexaoFactory.pas',
   FdConexao.Cotroller in 'Controller\FdConexao.Cotroller.pas',
-  FdConexao.Controller.Interfaces in 'Controller\FdConexao.Controller.Interfaces.pas';
+  FdConexao.Controller.Interfaces in 'Controller\FdConexao.Controller.Interfaces.pas',
+  Vcl.Themes,
+  Vcl.Styles;
 
 {$R *.res}
 
@@ -18,6 +20,7 @@ begin
   ReportMemoryLeaksOnShutdown := True;
   Application.Initialize;
   Application.MainFormOnTaskbar := True;
+  TStyleManager.TrySetStyle('Emerald');
   Application.Title := 'Configurador de acesso ao banco de dados';
   Application.CreateForm(TfrmPrincipal, frmPrincipal);
   Application.Run;
