@@ -1,9 +1,10 @@
 object frmPrincipal: TfrmPrincipal
   Left = 0
   Top = 0
+  AutoSize = True
   Caption = 'Configurador de Acesso ao Banco de Dados'
-  ClientHeight = 670
-  ClientWidth = 835
+  ClientHeight = 652
+  ClientWidth = 817
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -19,8 +20,8 @@ object frmPrincipal: TfrmPrincipal
   PixelsPerInch = 96
   TextHeight = 13
   object Label2: TLabel
-    Left = 19
-    Top = 4
+    Left = 17
+    Top = 0
     Width = 114
     Height = 16
     Caption = 'N'#186' do IP do servidor'
@@ -33,8 +34,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label3: TLabel
-    Left = 363
-    Top = 4
+    Left = 326
+    Top = 0
     Width = 259
     Height = 16
     Caption = 'Caminho da Base de Dados da Empresa [1].'
@@ -47,8 +48,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label4: TLabel
-    Left = 19
-    Top = 52
+    Left = 17
+    Top = 48
     Width = 114
     Height = 16
     Caption = 'N'#186' do IP do servidor'
@@ -61,8 +62,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label5: TLabel
-    Left = 19
-    Top = 99
+    Left = 17
+    Top = 95
     Width = 114
     Height = 16
     Caption = 'N'#186' do IP do servidor'
@@ -75,8 +76,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label6: TLabel
-    Left = 19
-    Top = 147
+    Left = 17
+    Top = 143
     Width = 114
     Height = 16
     Caption = 'N'#186' do IP do servidor'
@@ -89,8 +90,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label7: TLabel
-    Left = 19
-    Top = 194
+    Left = 17
+    Top = 190
     Width = 114
     Height = 16
     Caption = 'N'#186' do IP do servidor'
@@ -103,8 +104,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label8: TLabel
-    Left = 363
-    Top = 52
+    Left = 326
+    Top = 48
     Width = 259
     Height = 16
     Caption = 'Caminho da Base de Dados da Empresa [2].'
@@ -117,8 +118,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label9: TLabel
-    Left = 363
-    Top = 99
+    Left = 326
+    Top = 95
     Width = 259
     Height = 16
     Caption = 'Caminho da Base de Dados da Empresa [3].'
@@ -131,8 +132,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label10: TLabel
-    Left = 363
-    Top = 147
+    Left = 326
+    Top = 143
     Width = 259
     Height = 16
     Caption = 'Caminho da Base de Dados da Empresa [4].'
@@ -145,8 +146,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label11: TLabel
-    Left = 363
-    Top = 194
+    Left = 326
+    Top = 190
     Width = 259
     Height = 16
     Caption = 'Caminho da Base de Dados da Empresa [5].'
@@ -159,8 +160,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object SpeedButton1: TSpeedButton
-    Left = 260
-    Top = 605
+    Left = 258
+    Top = 601
     Width = 134
     Height = 50
     Caption = 'Confirmar'
@@ -324,8 +325,8 @@ object frmPrincipal: TfrmPrincipal
     OnClick = SpeedButton1Click
   end
   object SpeedButton3: TSpeedButton
-    Left = 415
-    Top = 606
+    Left = 413
+    Top = 602
     Width = 134
     Height = 50
     GroupIndex = 1
@@ -490,15 +491,15 @@ object frmPrincipal: TfrmPrincipal
     OnClick = SpeedButton3Click
   end
   object Bevel1: TBevel
-    Left = 2
-    Top = 595
-    Width = 834
+    Left = 0
+    Top = 591
+    Width = 817
     Height = 5
     Shape = bsTopLine
   end
   object Label1: TLabel
-    Left = 19
-    Top = 242
+    Left = 17
+    Top = 238
     Width = 114
     Height = 16
     Caption = 'N'#186' do IP do servidor'
@@ -511,8 +512,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label12: TLabel
-    Left = 363
-    Top = 242
+    Left = 326
+    Top = 238
     Width = 259
     Height = 16
     Caption = 'Caminho da Base de Dados da Empresa [6].'
@@ -525,8 +526,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label13: TLabel
-    Left = 19
-    Top = 290
+    Left = 17
+    Top = 286
     Width = 114
     Height = 16
     Caption = 'N'#186' do IP do servidor'
@@ -539,8 +540,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label14: TLabel
-    Left = 363
-    Top = 290
+    Left = 326
+    Top = 286
     Width = 259
     Height = 16
     Caption = 'Caminho da Base de Dados da Empresa [7].'
@@ -553,8 +554,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label15: TLabel
-    Left = 19
-    Top = 337
+    Left = 17
+    Top = 333
     Width = 114
     Height = 16
     Caption = 'N'#186' do IP do servidor'
@@ -567,8 +568,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label16: TLabel
-    Left = 363
-    Top = 337
+    Left = 326
+    Top = 333
     Width = 259
     Height = 16
     Caption = 'Caminho da Base de Dados da Empresa [8].'
@@ -581,8 +582,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label17: TLabel
-    Left = 19
-    Top = 385
+    Left = 17
+    Top = 381
     Width = 114
     Height = 16
     Caption = 'N'#186' do IP do servidor'
@@ -595,8 +596,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label18: TLabel
-    Left = 363
-    Top = 385
+    Left = 326
+    Top = 381
     Width = 259
     Height = 16
     Caption = 'Caminho da Base de Dados da Empresa [9].'
@@ -609,8 +610,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label19: TLabel
-    Left = 19
-    Top = 433
+    Left = 17
+    Top = 429
     Width = 114
     Height = 16
     Caption = 'N'#186' do IP do servidor'
@@ -623,8 +624,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label20: TLabel
-    Left = 363
-    Top = 433
+    Left = 326
+    Top = 429
     Width = 266
     Height = 16
     Caption = 'Caminho da Base de Dados da Empresa [10].'
@@ -637,8 +638,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label21: TLabel
-    Left = 363
-    Top = 481
+    Left = 326
+    Top = 477
     Width = 265
     Height = 16
     Caption = 'Caminho da Base de Dados da Empresa [11].'
@@ -651,8 +652,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label22: TLabel
-    Left = 19
-    Top = 481
+    Left = 17
+    Top = 477
     Width = 114
     Height = 16
     Caption = 'N'#186' do IP do servidor'
@@ -665,8 +666,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label23: TLabel
-    Left = 363
-    Top = 529
+    Left = 326
+    Top = 525
     Width = 266
     Height = 16
     Caption = 'Caminho da Base de Dados da Empresa [12].'
@@ -679,8 +680,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label24: TLabel
-    Left = 19
-    Top = 529
+    Left = 17
+    Top = 525
     Width = 114
     Height = 16
     Caption = 'N'#186' do IP do servidor'
@@ -693,8 +694,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label25: TLabel
-    Left = 203
-    Top = 4
+    Left = 184
+    Top = 0
     Width = 67
     Height = 16
     Caption = 'N'#186' da Porta'
@@ -707,8 +708,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label26: TLabel
-    Left = 203
-    Top = 51
+    Left = 184
+    Top = 47
     Width = 67
     Height = 16
     Caption = 'N'#186' da Porta'
@@ -721,8 +722,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label27: TLabel
-    Left = 203
-    Top = 99
+    Left = 184
+    Top = 95
     Width = 67
     Height = 16
     Caption = 'N'#186' da Porta'
@@ -735,8 +736,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label28: TLabel
-    Left = 203
-    Top = 146
+    Left = 184
+    Top = 142
     Width = 67
     Height = 16
     Caption = 'N'#186' da Porta'
@@ -749,8 +750,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label29: TLabel
-    Left = 203
-    Top = 194
+    Left = 184
+    Top = 190
     Width = 67
     Height = 16
     Caption = 'N'#186' da Porta'
@@ -763,8 +764,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label30: TLabel
-    Left = 203
-    Top = 241
+    Left = 184
+    Top = 237
     Width = 67
     Height = 16
     Caption = 'N'#186' da Porta'
@@ -777,8 +778,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label31: TLabel
-    Left = 203
-    Top = 290
+    Left = 184
+    Top = 286
     Width = 67
     Height = 16
     Caption = 'N'#186' da Porta'
@@ -791,8 +792,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label32: TLabel
-    Left = 203
-    Top = 337
+    Left = 184
+    Top = 333
     Width = 67
     Height = 16
     Caption = 'N'#186' da Porta'
@@ -805,8 +806,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label33: TLabel
-    Left = 203
-    Top = 386
+    Left = 184
+    Top = 382
     Width = 67
     Height = 16
     Caption = 'N'#186' da Porta'
@@ -819,8 +820,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label34: TLabel
-    Left = 203
-    Top = 433
+    Left = 184
+    Top = 429
     Width = 67
     Height = 16
     Caption = 'N'#186' da Porta'
@@ -833,8 +834,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label35: TLabel
-    Left = 203
-    Top = 482
+    Left = 184
+    Top = 478
     Width = 67
     Height = 16
     Caption = 'N'#186' da Porta'
@@ -847,8 +848,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Label36: TLabel
-    Left = 203
-    Top = 529
+    Left = 184
+    Top = 525
     Width = 67
     Height = 16
     Caption = 'N'#186' da Porta'
@@ -861,8 +862,8 @@ object frmPrincipal: TfrmPrincipal
     Transparent = True
   end
   object Edit4: TEdit
-    Left = 363
-    Top = 165
+    Left = 326
+    Top = 161
     Width = 431
     Height = 26
     Font.Charset = DEFAULT_CHARSET
@@ -874,8 +875,8 @@ object frmPrincipal: TfrmPrincipal
     TabOrder = 11
   end
   object Edit5: TEdit
-    Left = 363
-    Top = 212
+    Left = 326
+    Top = 208
     Width = 431
     Height = 26
     Font.Charset = DEFAULT_CHARSET
@@ -887,8 +888,8 @@ object frmPrincipal: TfrmPrincipal
     TabOrder = 14
   end
   object Edit6: TEdit
-    Left = 363
-    Top = 260
+    Left = 326
+    Top = 256
     Width = 431
     Height = 26
     Font.Charset = DEFAULT_CHARSET
@@ -900,8 +901,8 @@ object frmPrincipal: TfrmPrincipal
     TabOrder = 17
   end
   object Edit7: TEdit
-    Left = 363
-    Top = 308
+    Left = 326
+    Top = 304
     Width = 431
     Height = 26
     Font.Charset = DEFAULT_CHARSET
@@ -913,8 +914,8 @@ object frmPrincipal: TfrmPrincipal
     TabOrder = 20
   end
   object Edit3: TEdit
-    Left = 363
-    Top = 117
+    Left = 326
+    Top = 113
     Width = 431
     Height = 26
     Font.Charset = DEFAULT_CHARSET
@@ -926,8 +927,8 @@ object frmPrincipal: TfrmPrincipal
     TabOrder = 8
   end
   object Edit1: TEdit
-    Left = 363
-    Top = 22
+    Left = 326
+    Top = 18
     Width = 431
     Height = 26
     Font.Charset = DEFAULT_CHARSET
@@ -939,8 +940,8 @@ object frmPrincipal: TfrmPrincipal
     TabOrder = 2
   end
   object Edit2: TEdit
-    Left = 363
-    Top = 70
+    Left = 326
+    Top = 66
     Width = 431
     Height = 26
     Font.Charset = DEFAULT_CHARSET
@@ -952,8 +953,8 @@ object frmPrincipal: TfrmPrincipal
     TabOrder = 5
   end
   object Editip1: TEdit
-    Left = 19
-    Top = 22
+    Left = 17
+    Top = 18
     Width = 130
     Height = 26
     Font.Charset = DEFAULT_CHARSET
@@ -966,8 +967,8 @@ object frmPrincipal: TfrmPrincipal
     Text = '127.0.0.1'
   end
   object Editip2: TEdit
-    Left = 19
-    Top = 69
+    Left = 17
+    Top = 65
     Width = 130
     Height = 26
     Font.Charset = DEFAULT_CHARSET
@@ -980,8 +981,8 @@ object frmPrincipal: TfrmPrincipal
     Text = '127.0.0.1'
   end
   object Editip3: TEdit
-    Left = 19
-    Top = 117
+    Left = 17
+    Top = 113
     Width = 130
     Height = 26
     Font.Charset = DEFAULT_CHARSET
@@ -994,8 +995,8 @@ object frmPrincipal: TfrmPrincipal
     Text = '127.0.0.1'
   end
   object Editip4: TEdit
-    Left = 19
-    Top = 164
+    Left = 17
+    Top = 160
     Width = 130
     Height = 26
     Font.Charset = DEFAULT_CHARSET
@@ -1008,8 +1009,8 @@ object frmPrincipal: TfrmPrincipal
     Text = '127.0.0.1'
   end
   object Editip5: TEdit
-    Left = 19
-    Top = 212
+    Left = 17
+    Top = 208
     Width = 130
     Height = 26
     Font.Charset = DEFAULT_CHARSET
@@ -1022,8 +1023,8 @@ object frmPrincipal: TfrmPrincipal
     Text = '127.0.0.1'
   end
   object Editip6: TEdit
-    Left = 19
-    Top = 259
+    Left = 17
+    Top = 255
     Width = 130
     Height = 26
     Font.Charset = DEFAULT_CHARSET
@@ -1036,8 +1037,8 @@ object frmPrincipal: TfrmPrincipal
     Text = '127.0.0.1'
   end
   object Editip7: TEdit
-    Left = 19
-    Top = 307
+    Left = 17
+    Top = 303
     Width = 130
     Height = 26
     Font.Charset = DEFAULT_CHARSET
@@ -1050,8 +1051,8 @@ object frmPrincipal: TfrmPrincipal
     Text = '127.0.0.1'
   end
   object Edit8: TEdit
-    Left = 363
-    Top = 355
+    Left = 326
+    Top = 351
     Width = 431
     Height = 26
     Font.Charset = DEFAULT_CHARSET
@@ -1063,8 +1064,8 @@ object frmPrincipal: TfrmPrincipal
     TabOrder = 23
   end
   object Editip8: TEdit
-    Left = 19
-    Top = 355
+    Left = 17
+    Top = 351
     Width = 130
     Height = 26
     Font.Charset = DEFAULT_CHARSET
@@ -1077,8 +1078,8 @@ object frmPrincipal: TfrmPrincipal
     Text = '127.0.0.1'
   end
   object Editip9: TEdit
-    Left = 19
-    Top = 403
+    Left = 17
+    Top = 399
     Width = 130
     Height = 26
     Font.Charset = DEFAULT_CHARSET
@@ -1091,8 +1092,8 @@ object frmPrincipal: TfrmPrincipal
     Text = '127.0.0.1'
   end
   object Edit9: TEdit
-    Left = 363
-    Top = 403
+    Left = 326
+    Top = 399
     Width = 431
     Height = 26
     Font.Charset = DEFAULT_CHARSET
@@ -1104,8 +1105,8 @@ object frmPrincipal: TfrmPrincipal
     TabOrder = 26
   end
   object Editip10: TEdit
-    Left = 19
-    Top = 451
+    Left = 17
+    Top = 447
     Width = 130
     Height = 26
     Font.Charset = DEFAULT_CHARSET
@@ -1118,8 +1119,8 @@ object frmPrincipal: TfrmPrincipal
     Text = '127.0.0.1'
   end
   object Edit10: TEdit
-    Left = 363
-    Top = 451
+    Left = 326
+    Top = 447
     Width = 431
     Height = 26
     Font.Charset = DEFAULT_CHARSET
@@ -1131,8 +1132,8 @@ object frmPrincipal: TfrmPrincipal
     TabOrder = 29
   end
   object Editip11: TEdit
-    Left = 19
-    Top = 497
+    Left = 17
+    Top = 493
     Width = 130
     Height = 26
     Font.Charset = DEFAULT_CHARSET
@@ -1145,8 +1146,8 @@ object frmPrincipal: TfrmPrincipal
     Text = '127.0.0.1'
   end
   object Edit11: TEdit
-    Left = 363
-    Top = 499
+    Left = 326
+    Top = 495
     Width = 431
     Height = 26
     Font.Charset = DEFAULT_CHARSET
@@ -1158,8 +1159,8 @@ object frmPrincipal: TfrmPrincipal
     TabOrder = 32
   end
   object Editip12: TEdit
-    Left = 19
-    Top = 547
+    Left = 17
+    Top = 543
     Width = 130
     Height = 26
     Font.Charset = DEFAULT_CHARSET
@@ -1172,8 +1173,8 @@ object frmPrincipal: TfrmPrincipal
     Text = '127.0.0.1'
   end
   object Edit12: TEdit
-    Left = 363
-    Top = 547
+    Left = 326
+    Top = 543
     Width = 431
     Height = 26
     Font.Charset = DEFAULT_CHARSET
@@ -1185,8 +1186,8 @@ object frmPrincipal: TfrmPrincipal
     TabOrder = 35
   end
   object EdtNrPorta1: TEdit
-    Left = 203
-    Top = 22
+    Left = 184
+    Top = 18
     Width = 109
     Height = 26
     Alignment = taRightJustify
@@ -1200,8 +1201,8 @@ object frmPrincipal: TfrmPrincipal
     Text = '3050'
   end
   object EdtNrPorta2: TEdit
-    Left = 203
-    Top = 69
+    Left = 184
+    Top = 65
     Width = 109
     Height = 26
     Alignment = taRightJustify
@@ -1215,8 +1216,8 @@ object frmPrincipal: TfrmPrincipal
     Text = '3050'
   end
   object EdtNrPorta3: TEdit
-    Left = 203
-    Top = 117
+    Left = 184
+    Top = 113
     Width = 109
     Height = 26
     Alignment = taRightJustify
@@ -1230,8 +1231,8 @@ object frmPrincipal: TfrmPrincipal
     Text = '3050'
   end
   object EdtNrPorta4: TEdit
-    Left = 203
-    Top = 164
+    Left = 184
+    Top = 160
     Width = 109
     Height = 26
     Alignment = taRightJustify
@@ -1245,8 +1246,8 @@ object frmPrincipal: TfrmPrincipal
     Text = '3050'
   end
   object EdtNrPorta5: TEdit
-    Left = 203
-    Top = 212
+    Left = 184
+    Top = 208
     Width = 109
     Height = 26
     Alignment = taRightJustify
@@ -1260,8 +1261,8 @@ object frmPrincipal: TfrmPrincipal
     Text = '3050'
   end
   object EdtNrPorta6: TEdit
-    Left = 203
-    Top = 259
+    Left = 184
+    Top = 255
     Width = 109
     Height = 26
     Alignment = taRightJustify
@@ -1275,8 +1276,8 @@ object frmPrincipal: TfrmPrincipal
     Text = '3050'
   end
   object EdtNrPorta7: TEdit
-    Left = 203
-    Top = 308
+    Left = 184
+    Top = 304
     Width = 109
     Height = 26
     Alignment = taRightJustify
@@ -1290,8 +1291,8 @@ object frmPrincipal: TfrmPrincipal
     Text = '3050'
   end
   object EdtNrPorta8: TEdit
-    Left = 203
-    Top = 355
+    Left = 184
+    Top = 351
     Width = 109
     Height = 26
     Alignment = taRightJustify
@@ -1305,8 +1306,8 @@ object frmPrincipal: TfrmPrincipal
     Text = '3050'
   end
   object EdtNrPorta9: TEdit
-    Left = 203
-    Top = 404
+    Left = 184
+    Top = 400
     Width = 109
     Height = 26
     Alignment = taRightJustify
@@ -1320,8 +1321,8 @@ object frmPrincipal: TfrmPrincipal
     Text = '3050'
   end
   object EdtNrPorta10: TEdit
-    Left = 203
-    Top = 451
+    Left = 184
+    Top = 447
     Width = 109
     Height = 26
     Alignment = taRightJustify
@@ -1335,8 +1336,8 @@ object frmPrincipal: TfrmPrincipal
     Text = '3050'
   end
   object EdtNrPorta11: TEdit
-    Left = 203
-    Top = 500
+    Left = 184
+    Top = 496
     Width = 109
     Height = 26
     Alignment = taRightJustify
@@ -1350,8 +1351,8 @@ object frmPrincipal: TfrmPrincipal
     Text = '3050'
   end
   object EdtNrPorta12: TEdit
-    Left = 203
-    Top = 547
+    Left = 184
+    Top = 543
     Width = 109
     Height = 26
     Alignment = taRightJustify
@@ -1365,8 +1366,8 @@ object frmPrincipal: TfrmPrincipal
     Text = '3050'
   end
   object BitBtn1: TBitBtn
-    Left = 152
-    Top = 22
+    Left = 147
+    Top = 18
     Width = 20
     Height = 26
     Cursor = crHandPoint
@@ -1413,8 +1414,8 @@ object frmPrincipal: TfrmPrincipal
     OnClick = BitBtn1Click
   end
   object BitBtn2: TBitBtn
-    Left = 314
-    Top = 20
+    Left = 295
+    Top = 16
     Width = 20
     Height = 26
     Cursor = crHandPoint
@@ -1450,8 +1451,8 @@ object frmPrincipal: TfrmPrincipal
     OnClick = BitBtn2Click
   end
   object BitBtn3: TBitBtn
-    Left = 796
-    Top = 20
+    Left = 786
+    Top = 16
     Width = 20
     Height = 26
     Cursor = crHandPoint
@@ -1486,11 +1487,20 @@ object frmPrincipal: TfrmPrincipal
     TabOrder = 38
     OnClick = BitBtn3Click
   end
+  object BitBtnEscolherArquivo: TBitBtn
+    Left = 759
+    Top = 17
+    Width = 25
+    Height = 25
+    Caption = '...'
+    TabOrder = 39
+    OnClick = BitBtnEscolherArquivoClick
+  end
   object ImageList1: TImageList
-    Left = 713
-    Top = 69
+    Left = 798
+    Top = 165
     Bitmap = {
-      494C0101010005004C0010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      494C010101000500500010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000400000001000000001002000000000000010
       0000000000000000000000000000000000000000000000000000000000000000
       00000000000000000000000000000000000000000000FFFFFF00FFFFFF00FFFF
@@ -1630,20 +1640,11 @@ object frmPrincipal: TfrmPrincipal
       000000000000}
   end
   object IdAntiFreeze1: TIdAntiFreeze
-    Left = 714
-    Top = 110
+    Left = 799
+    Top = 222
   end
-  object IdFTP: TIdFTP
-    IPVersion = Id_IPv4
-    Passive = True
-    ConnectTimeout = 0
-    NATKeepAlive.UseKeepAlive = False
-    NATKeepAlive.IdleTimeMS = 0
-    NATKeepAlive.IntervalMS = 0
-    ProxySettings.ProxyType = fpcmNone
-    ProxySettings.Port = 0
-    ReadTimeout = 0
-    Left = 711
-    Top = 158
+  object OpenDialog1: TOpenDialog
+    Left = 800
+    Top = 112
   end
 end

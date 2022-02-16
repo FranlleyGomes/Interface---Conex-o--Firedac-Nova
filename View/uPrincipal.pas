@@ -89,10 +89,11 @@ type
     EdtNrPorta12: TEdit;
     ImageList1: TImageList;
     IdAntiFreeze1: TIdAntiFreeze;
-    IdFTP: TIdFTP;
     BitBtn1: TBitBtn;
     BitBtn2: TBitBtn;
     BitBtn3: TBitBtn;
+    BitBtnEscolherArquivo: TBitBtn;
+    OpenDialog1: TOpenDialog;
     procedure FormShow(Sender: TObject);
     procedure FormKeyPress(Sender: TObject; var Key: Char);
     procedure SpeedButton1Click(Sender: TObject);
@@ -101,6 +102,7 @@ type
     procedure BitBtn1Click(Sender: TObject);
     procedure BitBtn2Click(Sender: TObject);
     procedure BitBtn3Click(Sender: TObject);
+    procedure BitBtnEscolherArquivoClick(Sender: TObject);
   private
     { Private declarations }
     FConexao : iConexao;
@@ -111,8 +113,6 @@ type
 var
   frmPrincipal: TfrmPrincipal;
   key : integer;
-
-
 
 
 implementation
@@ -146,8 +146,19 @@ var
  Const  NamePrefix = 'Edit';
 begin
     for i := 2 to 12 do
-      TEdit(FindComponent(NamePrefix + IntToStr(i))).Text := Edit1.Text;
+      TEdit(FindComponent(NamePrefix + IntToStr(i))).Text := StringReplace(Edit1.Text, '1', IntToStr(i), [rfReplaceAll]);
 
+end;
+
+procedure TfrmPrincipal.BitBtnEscolherArquivoClick(Sender: TObject);
+Var
+arq : String;
+begin
+if opendialog1.Execute
+then arq := opendialog1.FileName;
+Edit1.Text := Arq;
+
+frmPrincipal.Repaint;
 end;
 
 procedure TfrmPrincipal.FormCreate(Sender: TObject);
@@ -196,7 +207,7 @@ end;
 
 procedure TfrmPrincipal.SpeedButton1Click(Sender: TObject);
 var
-  j : integer;
+  j , i : integer;
 begin
 Formsenha := TFormsenha.create(self);
 Formsenha.showmodal;
@@ -217,6 +228,18 @@ Formsenha.showmodal;
         .NumeroPorta(TEdit(FindComponent('EdtNrPorta' + inttostr(j))).Text)
         .NomeCaminho(TEdit(FindComponent('Edit' + inttostr(j))).Text);
       end;
+
+
+   for i := 1 to  12 do
+      begin
+      FConexao
+        .NomeTituloIni('InterfaceFire'+IntTostr(i)+'.txt')
+        .NomeDoIni('MultFiredac'+IntTostr(i)+'.txt')
+        .NumeroIP(TEdit(FindComponent('Editip' + inttostr(i))).Text)
+        .NumeroPorta(TEdit(FindComponent('EdtNrPorta' + inttostr(i))).Text)
+        .NomeCaminho(TEdit(FindComponent('Edit' + inttostr(i))).Text);
+      end;
+
     FConexao := TControllerConexao.New.Conexao(tpGravaDefs);
 
     FConexao
