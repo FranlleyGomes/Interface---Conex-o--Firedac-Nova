@@ -2,8 +2,8 @@ object frmPrincipal: TfrmPrincipal
   Left = 0
   Top = 0
   AutoSize = True
-  Caption = 'Configurador de Acesso ao Banco de Dados'
-  ClientHeight = 652
+  Caption = 'Interface Sistemas - Configurador de Acesso ao Banco de Dados'
+  ClientHeight = 634
   ClientWidth = 817
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -14,7 +14,6 @@ object frmPrincipal: TfrmPrincipal
   KeyPreview = True
   OldCreateOrder = False
   Position = poScreenCenter
-  OnCreate = FormCreate
   OnKeyPress = FormKeyPress
   OnShow = FormShow
   PixelsPerInch = 96
@@ -161,7 +160,7 @@ object frmPrincipal: TfrmPrincipal
   end
   object SpeedButton1: TSpeedButton
     Left = 258
-    Top = 601
+    Top = 583
     Width = 134
     Height = 50
     Caption = 'Confirmar'
@@ -326,7 +325,7 @@ object frmPrincipal: TfrmPrincipal
   end
   object SpeedButton3: TSpeedButton
     Left = 413
-    Top = 602
+    Top = 584
     Width = 134
     Height = 50
     GroupIndex = 1
@@ -492,7 +491,7 @@ object frmPrincipal: TfrmPrincipal
   end
   object Bevel1: TBevel
     Left = 0
-    Top = 591
+    Top = 573
     Width = 817
     Height = 5
     Shape = bsTopLine
@@ -873,6 +872,7 @@ object frmPrincipal: TfrmPrincipal
     Font.Style = []
     ParentFont = False
     TabOrder = 11
+    Text = 'C:\DBComercio\Empresa4\BASEDADOS.FDB'
   end
   object Edit5: TEdit
     Left = 326
@@ -886,6 +886,7 @@ object frmPrincipal: TfrmPrincipal
     Font.Style = []
     ParentFont = False
     TabOrder = 14
+    Text = 'C:\DBComercio\Empresa5\BASEDADOS.FDB'
   end
   object Edit6: TEdit
     Left = 326
@@ -899,6 +900,7 @@ object frmPrincipal: TfrmPrincipal
     Font.Style = []
     ParentFont = False
     TabOrder = 17
+    Text = 'C:\DBComercio\Empresa6\BASEDADOS.FDB'
   end
   object Edit7: TEdit
     Left = 326
@@ -912,6 +914,7 @@ object frmPrincipal: TfrmPrincipal
     Font.Style = []
     ParentFont = False
     TabOrder = 20
+    Text = 'C:\DBComercio\Empresa7\BASEDADOS.FDB'
   end
   object Edit3: TEdit
     Left = 326
@@ -925,6 +928,7 @@ object frmPrincipal: TfrmPrincipal
     Font.Style = []
     ParentFont = False
     TabOrder = 8
+    Text = 'C:\DBComercio\Empresa3\BASEDADOS.FDB'
   end
   object Edit1: TEdit
     Left = 326
@@ -938,6 +942,7 @@ object frmPrincipal: TfrmPrincipal
     Font.Style = []
     ParentFont = False
     TabOrder = 2
+    Text = 'C:\DBComercio\Empresa1\BASEDADOS.FDB'
   end
   object Edit2: TEdit
     Left = 326
@@ -951,10 +956,11 @@ object frmPrincipal: TfrmPrincipal
     Font.Style = []
     ParentFont = False
     TabOrder = 5
+    Text = 'C:\DBComercio\Empresa2\BASEDADOS.FDB'
   end
-  object Editip1: TEdit
+  object EditIP1: TEdit
     Left = 17
-    Top = 18
+    Top = 16
     Width = 130
     Height = 26
     Font.Charset = DEFAULT_CHARSET
@@ -966,7 +972,7 @@ object frmPrincipal: TfrmPrincipal
     TabOrder = 0
     Text = '127.0.0.1'
   end
-  object Editip2: TEdit
+  object EditIP2: TEdit
     Left = 17
     Top = 65
     Width = 130
@@ -980,7 +986,7 @@ object frmPrincipal: TfrmPrincipal
     TabOrder = 3
     Text = '127.0.0.1'
   end
-  object Editip3: TEdit
+  object EditIP3: TEdit
     Left = 17
     Top = 113
     Width = 130
@@ -994,7 +1000,7 @@ object frmPrincipal: TfrmPrincipal
     TabOrder = 6
     Text = '127.0.0.1'
   end
-  object Editip4: TEdit
+  object EditIP4: TEdit
     Left = 17
     Top = 160
     Width = 130
@@ -1008,7 +1014,7 @@ object frmPrincipal: TfrmPrincipal
     TabOrder = 9
     Text = '127.0.0.1'
   end
-  object Editip5: TEdit
+  object EditIP5: TEdit
     Left = 17
     Top = 208
     Width = 130
@@ -1022,7 +1028,7 @@ object frmPrincipal: TfrmPrincipal
     TabOrder = 12
     Text = '127.0.0.1'
   end
-  object Editip6: TEdit
+  object EditIP6: TEdit
     Left = 17
     Top = 255
     Width = 130
@@ -1036,7 +1042,7 @@ object frmPrincipal: TfrmPrincipal
     TabOrder = 15
     Text = '127.0.0.1'
   end
-  object Editip7: TEdit
+  object EditIP7: TEdit
     Left = 17
     Top = 303
     Width = 130
@@ -1062,8 +1068,9 @@ object frmPrincipal: TfrmPrincipal
     Font.Style = []
     ParentFont = False
     TabOrder = 23
+    Text = 'C:\DBComercio\Empresa8\BASEDADOS.FDB'
   end
-  object Editip8: TEdit
+  object EditIP8: TEdit
     Left = 17
     Top = 351
     Width = 130
@@ -1077,7 +1084,7 @@ object frmPrincipal: TfrmPrincipal
     TabOrder = 21
     Text = '127.0.0.1'
   end
-  object Editip9: TEdit
+  object EditIP9: TEdit
     Left = 17
     Top = 399
     Width = 130
@@ -1103,8 +1110,9 @@ object frmPrincipal: TfrmPrincipal
     Font.Style = []
     ParentFont = False
     TabOrder = 26
+    Text = 'C:\DBComercio\Empresa9\BASEDADOS.FDB'
   end
-  object Editip10: TEdit
+  object EditIP10: TEdit
     Left = 17
     Top = 447
     Width = 130
@@ -1130,8 +1138,9 @@ object frmPrincipal: TfrmPrincipal
     Font.Style = []
     ParentFont = False
     TabOrder = 29
+    Text = 'C:\DBComercio\Empresa10\BASEDADOS.FDB'
   end
-  object Editip11: TEdit
+  object EditIP11: TEdit
     Left = 17
     Top = 493
     Width = 130
@@ -1157,8 +1166,9 @@ object frmPrincipal: TfrmPrincipal
     Font.Style = []
     ParentFont = False
     TabOrder = 32
+    Text = 'C:\DBComercio\Empresa11\BASEDADOS.FDB'
   end
-  object Editip12: TEdit
+  object EditIP12: TEdit
     Left = 17
     Top = 543
     Width = 130
@@ -1184,6 +1194,7 @@ object frmPrincipal: TfrmPrincipal
     Font.Style = []
     ParentFont = False
     TabOrder = 35
+    Text = 'C:\DBComercio\Empresa12\BASEDADOS.FDB'
   end
   object EdtNrPorta1: TEdit
     Left = 184
@@ -1452,11 +1463,11 @@ object frmPrincipal: TfrmPrincipal
   end
   object BitBtn3: TBitBtn
     Left = 786
-    Top = 16
+    Top = 17
     Width = 20
     Height = 26
     Cursor = crHandPoint
-    Hint = 'Repete o Texto para os edits abaixo'
+    Hint = 'Repete o Texto para os caminhos abaixo'
     Glyph.Data = {
       2E030000424D2E0300000000000036000000280000000D000000130000000100
       180000000000F802000000000000000000000000000000000000F1F1F1F1F1F1
@@ -1492,6 +1503,7 @@ object frmPrincipal: TfrmPrincipal
     Top = 17
     Width = 25
     Height = 25
+    Hint = 'Escolha o Banco de Dados'
     Caption = '...'
     TabOrder = 39
     OnClick = BitBtnEscolherArquivoClick
@@ -1500,7 +1512,7 @@ object frmPrincipal: TfrmPrincipal
     Left = 798
     Top = 165
     Bitmap = {
-      494C010101000500500010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
+      494C010101000500580010001000FFFFFFFFFF10FFFFFFFFFFFFFFFF424D3600
       0000000000003600000028000000400000001000000001002000000000000010
       0000000000000000000000000000000000000000000000000000000000000000
       00000000000000000000000000000000000000000000FFFFFF00FFFFFF00FFFF

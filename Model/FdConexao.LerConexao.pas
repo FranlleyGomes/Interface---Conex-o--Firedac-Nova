@@ -73,10 +73,13 @@ end;
 procedure TLerConexao.LerArquivoIni;
 begin
       Memo := TMemo.Create(Application);
+      Memo.Visible := False;
+
 
       Memo.Parent :=  TForm(Application.MainForm);   // Screen.ActiveForm ;
       Memo.Width := 310;
       Memo.Height := 160;
+      Memo.Left := 896;
       Memo.Lines.Clear;
       Memo.Lines.LoadFromFile(ExtractFilePath(Application.ExeName)+FNomeDoIni);
 

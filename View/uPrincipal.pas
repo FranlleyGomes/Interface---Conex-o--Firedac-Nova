@@ -58,22 +58,22 @@ type
     Edit3: TEdit;
     Edit1: TEdit;
     Edit2: TEdit;
-    Editip1: TEdit;
-    Editip2: TEdit;
-    Editip3: TEdit;
-    Editip4: TEdit;
-    Editip5: TEdit;
-    Editip6: TEdit;
-    Editip7: TEdit;
+    EditIP1: TEdit;
+    EditIP2: TEdit;
+    EditIP3: TEdit;
+    EditIP4: TEdit;
+    EditIP5: TEdit;
+    EditIP6: TEdit;
+    EditIP7: TEdit;
     Edit8: TEdit;
-    Editip8: TEdit;
-    Editip9: TEdit;
+    EditIP8: TEdit;
+    EditIP9: TEdit;
     Edit9: TEdit;
-    Editip10: TEdit;
+    EditIP10: TEdit;
     Edit10: TEdit;
-    Editip11: TEdit;
+    EditIP11: TEdit;
     Edit11: TEdit;
-    Editip12: TEdit;
+    EditIP12: TEdit;
     Edit12: TEdit;
     EdtNrPorta1: TEdit;
     EdtNrPorta2: TEdit;
@@ -97,7 +97,6 @@ type
     procedure FormShow(Sender: TObject);
     procedure FormKeyPress(Sender: TObject; var Key: Char);
     procedure SpeedButton1Click(Sender: TObject);
-    procedure FormCreate(Sender: TObject);
     procedure SpeedButton3Click(Sender: TObject);
     procedure BitBtn1Click(Sender: TObject);
     procedure BitBtn2Click(Sender: TObject);
@@ -106,6 +105,7 @@ type
   private
     { Private declarations }
     FConexao : iConexao;
+    procedure LerIni;
   public
     { Public declarations }
   end;
@@ -161,9 +161,27 @@ Edit1.Text := Arq;
 frmPrincipal.Repaint;
 end;
 
-procedure TfrmPrincipal.FormCreate(Sender: TObject);
+procedure TfrmPrincipal.LerIni;
+var
+  j: Integer;
 begin
+
   FConexao := TControllerConexao.New.Conexao(tpLerConexao);
+
+  Screen.Cursor := crHourGlass;
+  Application.ProcessMessages;
+  for j := 1 to 12 do
+  begin
+    if FileExists(ExtractFilePath(Application.ExeName) + 'Paramsfiredac' + IntTostr(j) + '.txt') then
+      FConexao.NomeDoIni('Paramsfiredac' + IntTostr(j) + '.txt')
+              .NumeroIP(TEdit(FindComponent('Editip' + inttostr(j))).Text)
+              .VerificarEdit('Editip').NomeDoEdit('Editip' + IntToStr(j))
+              .NumeroPorta(TEdit(FindComponent('EdtNrPorta' + inttostr(j))).Text)
+              .VerificarEdit('EdtNrPorta').NomeDoEdit('EdtNrPorta' + IntToStr(j))
+              .NomeCaminho(TEdit(FindComponent('Edit' + inttostr(j))).Text)
+              .VerificarEdit('Edit').NomeDoEdit('Edit' + IntToStr(j));
+  end;
+  Screen.Cursor := crDefault;
 end;
 
 procedure TfrmPrincipal.FormKeyPress(Sender: TObject; var Key: Char);
@@ -176,39 +194,18 @@ begin
 end;
 
 procedure TfrmPrincipal.FormShow(Sender: TObject);
-var
-  j : integer;
 begin
-
-  Screen.Cursor := crHourGlass;
-  Application.ProcessMessages;
-
-  for j := 1 to 12 do
-  begin
-
-      if  FileExists(ExtractFilePath(Application.ExeName)+'Paramsfiredac'+IntTostr(j)+'.txt')then
-      FConexao
-        .NomeDoIni('Paramsfiredac'+IntTostr(j)+'.txt')
-        .NumeroIP(TEdit(FindComponent('Editip' + inttostr(j))).Text)
-        .VerificarEdit('Editip')
-        .NomeDoEdit('Editip'+IntToStr(j))
-        .NumeroPorta(TEdit(FindComponent('EdtNrPorta' + inttostr(j))).Text)
-        .VerificarEdit('EdtNrPorta')
-        .NomeDoEdit('EdtNrPorta'+IntToStr(j))
-        .NomeCaminho(TEdit(FindComponent('Edit' + inttostr(j))).Text)
-        .VerificarEdit('Edit')
-        .NomeDoEdit('Edit'+IntToStr(j))
-
-  end;
-
-  Screen.Cursor := crDefault;
-
+  LerIni;
 end;
 
 procedure TfrmPrincipal.SpeedButton1Click(Sender: TObject);
 var
   j , i : integer;
+  Texto : String;
 begin
+
+  Texto := 'Paramsfiredac';
+
 Formsenha := TFormsenha.create(self);
 Formsenha.showmodal;
 
@@ -219,26 +216,34 @@ Formsenha.showmodal;
 
 
   try
-     for j := 1 to  12 do
-      begin
-      FConexao
-        .NomeTituloIni('InterfaceFire'+IntTostr(j)+'.txt')
-        .NomeDoIni('Paramsfiredac'+IntTostr(j)+'.txt')
-        .NumeroIP(TEdit(FindComponent('Editip' + inttostr(j))).Text)
-        .NumeroPorta(TEdit(FindComponent('EdtNrPorta' + inttostr(j))).Text)
-        .NomeCaminho(TEdit(FindComponent('Edit' + inttostr(j))).Text);
-      end;
+     for i := 1 to 2 do
+       for j := 1 to  12 do
+        begin
+        if i=2 then
+            Texto := 'MultFiredac';
+        FConexao
+          .NomeDoEdit(TEdit(FindComponent('Editip' + inttostr(j))).Name)
+          .NomeTituloIni('InterfaceFire'+IntTostr(j)+'.txt')
+          .NomeDoIni(Texto+IntTostr(j)+'.txt')
+          .NumeroIP(TEdit(FindComponent('Editip' + inttostr(j))).Text)
+          .NumeroPorta(TEdit(FindComponent('EdtNrPorta' + inttostr(j))).Text)
+          .NomeCaminho(TEdit(FindComponent('Edit' + inttostr(j))).Text);
+
+        end;
 
 
-   for i := 1 to  12 do
+     { for i := 1 to  12 do
       begin
       FConexao
+        .NomeDoEdit(TEdit(FindComponent('Editip' + inttostr(i))).Name)
         .NomeTituloIni('InterfaceFire'+IntTostr(i)+'.txt')
         .NomeDoIni('MultFiredac'+IntTostr(i)+'.txt')
         .NumeroIP(TEdit(FindComponent('Editip' + inttostr(i))).Text)
         .NumeroPorta(TEdit(FindComponent('EdtNrPorta' + inttostr(i))).Text)
         .NomeCaminho(TEdit(FindComponent('Edit' + inttostr(i))).Text);
       end;
+       }
+      LerIni;
 
     FConexao := TControllerConexao.New.Conexao(tpGravaDefs);
 

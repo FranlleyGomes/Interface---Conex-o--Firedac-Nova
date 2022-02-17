@@ -17,6 +17,7 @@ type
     FNumeroPorta: String;
     FNumeroIp: String;
     FNomeCaminho: String;
+    FNomeDoEdit : String;
 
    function NomeDoIni(Value : String) : iConexao;
    function NomeTituloIni (Value : String) : iConexao;
@@ -24,7 +25,7 @@ type
    function NumeroIP (Value : String) : iConexao;
    function NomeCaminho (Value : String) : iConexao;
    function VerificarEdit(Value : String) : iConexao; virtual;
-   function NomeDoEdit (Value : String) : iConexao; virtual;
+   function NomeDoEdit (Value : String) : iConexao;
    function IsValidIPFormat(const aIP: string): Boolean;
 
   public
@@ -96,7 +97,8 @@ end;
 
 function TGravarConexao.NomeDoEdit(Value: String): iConexao;
 begin
-
+   Result := Self;
+   FNomeDoEdit := Value;
 end;
 
 function TGravarConexao.NomeDoIni(Value: String): iConexao;
@@ -116,16 +118,18 @@ begin
   Result := Self;
 
   if Value = '' then
-     FNumeroIp := '127.0.0.1';
+     Value := '127.0.0.1';
 
 
-  if (IsValidIPFormat(Value)) then
-    FNumeroIp := Value
-  else
-  begin
-    ShowMessage('IP com formato inválido.');
-    abort;
-  end;
+
+    if (IsValidIPFormat(Value)) then
+      FNumeroIp := Value
+    else
+    begin
+      ShowMessage('IP com formato inválido no '+FNomeDoEdit+'.'+#13+'Será colocado o Nr. do Ip Local'+#13+'127.0.0.1 no '+FNomeDoIni);
+      FNumeroIp := '127.0.0.1';
+    end;
+
 
 end;
 
@@ -135,7 +139,7 @@ begin
 
    if Value = '' then
     FNumeroPorta := '3050'
-   else
+  else
     FNumeroPorta := Value;
 end;
 

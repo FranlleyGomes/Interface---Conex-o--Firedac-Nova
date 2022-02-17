@@ -49,6 +49,8 @@ constructor TConexaoDefs.create;
 begin
   Memo := TMemo.Create(Application);
   MemoFinal  := TMemo.Create(Application);
+  Memo.Visible := False;
+  MemoFinal.Visible := False;
 end;
 
 destructor TConexaoDefs.Destroy;
