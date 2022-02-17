@@ -232,18 +232,7 @@ Formsenha.showmodal;
         end;
 
 
-     { for i := 1 to  12 do
-      begin
-      FConexao
-        .NomeDoEdit(TEdit(FindComponent('Editip' + inttostr(i))).Name)
-        .NomeTituloIni('InterfaceFire'+IntTostr(i)+'.txt')
-        .NomeDoIni('MultFiredac'+IntTostr(i)+'.txt')
-        .NumeroIP(TEdit(FindComponent('Editip' + inttostr(i))).Text)
-        .NumeroPorta(TEdit(FindComponent('EdtNrPorta' + inttostr(i))).Text)
-        .NomeCaminho(TEdit(FindComponent('Edit' + inttostr(i))).Text);
-      end;
-       }
-      LerIni;
+    LerIni;
 
     FConexao := TControllerConexao.New.Conexao(tpGravaDefs);
 
