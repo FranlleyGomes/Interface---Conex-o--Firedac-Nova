@@ -223,7 +223,7 @@ Formsenha.showmodal;
             Texto := 'MultFiredac';
         FConexao
           .NomeDoEdit(TEdit(FindComponent('Editip' + inttostr(j))).Name)
-          .NomeTituloIni('InterfaceFire'+IntTostr(j)+'.txt')
+          .NomeTituloIni('InterfaceFire'+IntTostr(j))
           .NomeDoIni(Texto+IntTostr(j)+'.txt')
           .NumeroIP(TEdit(FindComponent('Editip' + inttostr(j))).Text)
           .NumeroPorta(TEdit(FindComponent('EdtNrPorta' + inttostr(j))).Text)
