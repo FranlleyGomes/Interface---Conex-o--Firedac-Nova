@@ -3,11 +3,10 @@ unit uPrincipal;
 interface
 
 uses
-  Winapi.Windows, Winapi.Messages, System.SysUtils, System.Variants, System.Classes, Vcl.Graphics,
-  Vcl.Controls, Vcl.Forms, Vcl.Dialogs, IdComponent, IdTCPConnection,
-  IdTCPClient, IdExplicitTLSClientServerBase, IdFTP, IdBaseComponent,
-  IdAntiFreezeBase, Vcl.IdAntiFreeze, System.ImageList, Vcl.ImgList,
-  Vcl.StdCtrls, Vcl.ExtCtrls, Vcl.Buttons, FdConexao.Model.Interfaces;
+  Winapi.Messages, System.SysUtils, System.Variants, System.Classes,
+  Vcl.Controls, Vcl.Forms, Vcl.Dialogs,Vcl.StdCtrls, Vcl.ExtCtrls, Vcl.Buttons,
+  FdConexao.Model.Interfaces,   IdBaseComponent, IdAntiFreezeBase,
+  Vcl.IdAntiFreeze;
 
 
 type
@@ -87,7 +86,6 @@ type
     EdtNrPorta10: TEdit;
     EdtNrPorta11: TEdit;
     EdtNrPorta12: TEdit;
-    ImageList1: TImageList;
     IdAntiFreeze1: TIdAntiFreeze;
     BitBtn1: TBitBtn;
     BitBtn2: TBitBtn;
@@ -204,7 +202,7 @@ var
   Texto : String;
 begin
 
-  Texto := 'Paramsfiredac';
+Texto := 'Paramsfiredac';
 
 Formsenha := TFormsenha.create(self);
 Formsenha.showmodal;
