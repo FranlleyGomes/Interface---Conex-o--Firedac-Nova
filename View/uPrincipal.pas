@@ -245,6 +245,9 @@ Formsenha.showmodal;
 
   Screen.Cursor := crDefault;
 
+  MessageDlg('Configuração Salva!',mtInformation, [mbOk],0,mbOk);
+  Close;
+
 end;
 
 procedure TfrmPrincipal.SpeedButton3Click(Sender: TObject);
