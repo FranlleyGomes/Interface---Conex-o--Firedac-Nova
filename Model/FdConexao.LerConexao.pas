@@ -77,7 +77,7 @@ begin
 
 
       Memo.Parent :=  TForm(Application.MainForm);   // Screen.ActiveForm ;
-      Memo.Width := 310;
+      Memo.Width := 505;
       Memo.Height := 160;
       Memo.Left := 896;
       Memo.Lines.Clear;
