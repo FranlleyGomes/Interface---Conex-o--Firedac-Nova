@@ -133,6 +133,8 @@
         <None Include="ModelSupport_ConexaoFD\FdConexao\default.txvpck"/>
         <None Include="ModelSupport_ConexaoFD\FdConexaoFactory\default.txvpck"/>
         <None Include="ModelSupport_ConexaoFD\uPrincipal\default.txvpck"/>
+        <None Include="ModelSupport_ConexaoFD\FdConexaoFactory\default.txaPackage"/>
+        <None Include="ModelSupport_ConexaoFD\FdConexao\Model\Interfaces\default.txaPackage"/>
         <BuildConfiguration Include="Release">
             <Key>Cfg_2</Key>
             <CfgParent>Base</CfgParent>
@@ -170,10 +172,22 @@
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
+                <DeployFile LocalName="ModelSupport_ConexaoFD\FdConexaoFactory\default.txaPackage" Configuration="Release" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
                 <DeployFile LocalName="c:\program files (x86)\embarcadero\studio\18.0\bin\Artwork\Windows\UWP\delphi_UwpDefault_150.png" Configuration="Release" Class="UWP_DelphiLogo150">
                     <Platform Name="Win32">
                         <RemoteDir>Assets\</RemoteDir>
                         <RemoteName>Logo150x150.png</RemoteName>
+                        <Overwrite>true</Overwrite>
+                    </Platform>
+                </DeployFile>
+                <DeployFile LocalName="ModelSupport_ConexaoFD\FdConexao\Model\Interfaces\default.txaPackage" Configuration="Release" Class="ProjectFile">
+                    <Platform Name="Win32">
+                        <RemoteDir>.\</RemoteDir>
                         <Overwrite>true</Overwrite>
                     </Platform>
                 </DeployFile>
